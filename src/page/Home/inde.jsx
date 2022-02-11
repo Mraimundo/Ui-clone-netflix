@@ -3,7 +3,7 @@ import Tmdb from '../../Tmdb';
 
 import * as S from './styles';
 
-export const Home = () => {
+const Home = () => {
   const [movieList, setMovieList] = useState([]);
 
   useEffect(() => {
@@ -20,3 +20,5 @@ export const Home = () => {
     </S.Container>
   )
 }
+
+export default Home;
